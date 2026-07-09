@@ -1,0 +1,102 @@
+[
+  {
+    "lesson1En": "Run!",
+    "lesson1Fr": "Courez!",
+    "lesson2En": "Fire!",
+    "lesson2Fr": "Au feu!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  },
+  {
+    "lesson1En": "Watch out!",
+    "lesson1Fr": "Attention!",
+    "lesson2En": "Behind you!",
+    "lesson2Fr": "Derrière vous!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 1
+  },
+  {
+    "lesson1En": "Stop!",
+    "lesson1Fr": "Stop!",
+    "lesson2En": "Help here!",
+    "lesson2Fr": "Aide ici!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  },
+  {
+    "lesson1En": "Danger!",
+    "lesson1Fr": "Danger!",
+    "lesson2En": "Police!",
+    "lesson2Fr": "Police!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  },
+  {
+    "lesson1En": "Do not touch!",
+    "lesson1Fr": "Ne touchez pas!",
+    "lesson2En": "Help!",
+    "lesson2Fr": "Au secours!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 1
+  },
+  {
+    "lesson1En": "Get out!",
+    "lesson1Fr": "Sortez!",
+    "lesson2En": "Your bag!",
+    "lesson2Fr": "Votre sac!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  },
+  {
+    "lesson1En": "No fire!",
+    "lesson1Fr": "Pas de feu!",
+    "lesson2En": "Step back!",
+    "lesson2Fr": "Reculez!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 1
+  },
+  {
+    "lesson1En": "Watch your step!",
+    "lesson1Fr": "Attention sol!",
+    "lesson2En": "Help quickly!",
+    "lesson2Fr": "Aide vite!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  },
+  {
+    "lesson1En": "The dog!",
+    "lesson1Fr": "Le chien!",
+    "lesson2En": "Get down!",
+    "lesson2Fr": "A terre!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 1
+  },
+  {
+    "lesson1En": "Hide!",
+    "lesson1Fr": "Cachez vous!",
+    "lesson2En": "Wait!",
+    "lesson2Fr": "Attendez!",
+    "img1Url": "placeholder",
+    "img2Url": "placeholder",
+    "img3Url": "placeholder",
+    "correctAnswer": 2
+  }
+]
