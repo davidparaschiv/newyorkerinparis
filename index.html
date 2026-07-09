@@ -36,6 +36,18 @@ function getCurrent(){
   return scenarios[state.scenarioIndex];
 }
 
+function readScenario(item){
+  return {
+    eOk: item["e-ok"],
+    eBad: item["e-bad"],
+    fOk: item["f-ok"],
+    fBad: item["f-bad"],
+    imgQ: item["img-q-url"],
+    imgBad: item["img-bad-url"],
+    imgOk: item["img-ok-url"]
+  };
+}
+
 function render(){
 
   const s = getCurrent();
@@ -121,15 +133,7 @@ async function load(){
   const res = await fetch("db.json");
   const data = await res.json();
 
-  scenarios = data.map(item => ({
-    eOk: item["e-ok"],
-    fOk: item["f-ok"],
-    eBad: item["e-bad"],
-    fBad: item["f-bad"],
-    imgQ: item["img-q-url"],
-    imgBad: item["img-bad-url"],
-    imgOk: item["img-ok-url"]
-  }));
+  scenarios = data.map(readScenario);
 
   state.lessonOrder = Math.random() < 0.5 ? "ok-first" : "bad-first";
   state.stage = "lesson1";
