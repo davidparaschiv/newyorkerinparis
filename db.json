@@ -1,57 +1,5 @@
 [
   {
-    "id": 3,
-    "img-q": "use drawn characters not real people. newyorker should look exactly like the uploaded jpg here, silouette, face, hair and clothes. Do not use more than 4 people except if needed. Beside the Seine in Paris, a tourist stands at the center-right very close to the unguarded river edge. The New Yorker stands several steps behind on the left and watches the tourist leaning toward the water. The situation can be solved if the New Yorker says a short phrase in French. no chat bubbles or text in image",
-    "img-ok": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. Beside the same river edge, the tourist now stands several steps back in the center, far from the water. The New Yorker remains on the left. New yorker looks happy that the situation was solved. no chat bubbles or text in image",
-    "img-bad": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. Beside the same river edge, the tourist has already fallen into the Seine and splashes in the water below. The New Yorker remains on the left bank. New yorker looks sad that the situation happened. no chat bubbles or text in image",
-    "f-ok": "Reculez!",
-    "f-bad": "Très bien!",
-    "e-ok": "Step back!",
-    "e-bad": "Very good!",
-    "img-q-url": "images/3-q.jpg",
-    "img-ok-url": "images/3-ok.jpg",
-    "img-bad-url": "images/3-bad.jpg"
-  },
-  {
-    "id": 4,
-    "img-q": "use drawn characters not real people. newyorker should look exactly like the uploaded jpg here, silouette, face, hair and clothes. Do not use more than 4 people except if needed. On a Paris metro platform, a commuter stands in the center and reaches toward an unattended backpack that is releasing a thin line of smoke. The New Yorker stands on the left side of the platform and watches the commuter approach the smoking backpack. The situation can be solved if the New Yorker says a short phrase in French. no chat bubbles or text in image",
-    "img-ok": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. On the same metro platform, the commuter now stands far to the right, leaving a large empty space around the smoking backpack. The New Yorker remains on the left. New yorker looks happy that the situation was solved. no chat bubbles or text in image",
-    "img-bad": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. On the same metro platform, the smoking backpack has already burst into flames. The commuter lies on the floor beside scattered belongings, and the New Yorker remains on the left. New yorker looks sad that the situation happened. no chat bubbles or text in image",
-    "f-ok": "Restez loin!",
-    "f-bad": "Excusez-moi!",
-    "e-ok": "Stay away!",
-    "e-bad": "Excuse me!",
-    "img-q-url": "images/4-q.jpg",
-    "img-ok-url": "images/4-ok.jpg",
-    "img-bad-url": "images/4-bad.jpg"
-  },
-  {
-    "id": 5,
-    "img-q": "use drawn characters not real people. newyorker should look exactly like the uploaded jpg here, silouette, face, hair and clothes. Do not use more than 4 people except if needed. On a Paris street, an armed man stands on the right with a knife hidden behind one leg. An unaware pedestrian walks through the center toward the armed man. The New Yorker stands on the left and watches the armed man and the unaware pedestrian. The situation can be solved if the New Yorker says a short phrase in French. no chat bubbles or text in image",
-    "img-ok": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. On the same Paris street, the unaware pedestrian now stands safely behind the New Yorker on the far left while a police officer restrains the armed man on the right. New yorker looks happy that the situation was solved. no chat bubbles or text in image",
-    "img-bad": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. On the same Paris street, the armed man has already attacked the unaware pedestrian. The injured pedestrian lies on the ground near the armed man, and the New Yorker remains on the left. New yorker looks sad that the situation happened. no chat bubbles or text in image",
-    "f-ok": "Il est armé!",
-    "f-bad": "Je comprends!",
-    "e-ok": "He is armed!",
-    "e-bad": "I understand!",
-    "img-q-url": "images/5-q.jpg",
-    "img-ok-url": "images/5-ok.jpg",
-    "img-bad-url": "images/5-bad.jpg"
-  },
-  {
-    "id": 6,
-    "img-q": "use drawn characters not real people. newyorker should look exactly like the uploaded jpg here, silouette, face, hair and clothes. Do not use more than 4 people except if needed. Inside a Paris café, a café worker stands in the center near an oven with visible flames coming from the open door. The New Yorker stands near the entrance on the left and watches the café worker beside the burning oven. The situation can be solved if the New Yorker says a short phrase in French. no chat bubbles or text in image",
-    "img-ok": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. Inside the same café, the café worker now stands safely outside the entrance beside the New Yorker while the oven fire is extinguished and no flames remain. New yorker looks happy that the situation was solved. no chat bubbles or text in image",
-    "img-bad": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. Inside the same café, the oven fire has already spread across the kitchen wall and counter. The café worker is trapped near the back exit, and the New Yorker remains near the entrance. New yorker looks sad that the situation happened. no chat bubbles or text in image",
-    "f-ok": "Sortez!",
-    "f-bad": "Pas maintenant!",
-    "e-ok": "Get out!",
-    "e-bad": "Not now!",
-    "img-q-url": "images/6-q.jpg",
-    "img-ok-url": "images/6-ok.jpg",
-    "img-bad-url": "images/6-bad.jpg"
-  },
-  {
     "id": 7,
     "img-q": "use drawn characters not real people. newyorker should look exactly like the uploaded jpg here, silouette, face, hair and clothes. Do not use more than 4 people except if needed. On a Paris bridge, a tourist stands on the right with both feet close to the outer edge and the upper body leaning over the railing. The New Yorker stands on the left side of the bridge and watches the tourist lose balance. The situation can be solved if the New Yorker says a short phrase in French. no chat bubbles or text in image",
     "img-ok": "keep the characters and scene consistent with the one you start from. use drawn characters not real people. new yorker looks exactly like before silouette,face, hair and clothes. Do not use more than 4 people except if needed. On the same Paris bridge, the tourist now stands in the center of the walkway far from the railing. The New Yorker remains on the left. New yorker looks happy that the situation was solved. no chat bubbles or text in image",
