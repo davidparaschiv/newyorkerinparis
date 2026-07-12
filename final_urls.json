@@ -1,17 +1,7 @@
 [
   {
-    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41b-b0b9-6240-b54c-eeb1d7440363/flux-pro-2.0_use_drawn_characters_not_real_people._newyorker_should_look_exactly_like_the_upl-0.jpg",
-    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41d-38a0-64a0-b54f-5704cd85943d/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg",
-    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41c-7182-62b0-87b0-127c920c2b61/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg"
-  },
-  {
-    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41e-763c-6e20-98ec-b702f28580ae/flux-pro-2.0_use_drawn_characters_not_real_people._newyorker_should_look_exactly_like_the_upl-0.jpg",
-    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41f-ff8a-6eb0-99cb-b05561683085/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg",
-    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d41f-3014-6910-bc1e-eec57b26829a/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg"
-  },
-  {
-    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d421-275f-6570-9e35-9419bb530144/flux-pro-2.0_use_drawn_characters_not_real_people._newyorker_should_look_exactly_like_the_upl-0.jpg",
-    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d422-c4c2-6fa0-8151-80ba84eeb644/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg",
-    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17d421-f33f-6b90-ae41-9d76c8ea31ea/flux-pro-2.0_keep_the_characters_and_scene_consistent_with_the_one_you_start_from._use_drawn_-0.jpg"
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17e05c-c3c5-6bc0-8ba9-441faae6c908/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17e05f-b86f-6ca0-beb2-a2a8981b3660/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bakery_the_same_citizen_and_the_s-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17e05e-a949-6ba0-837b-22e97fc61200/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bakery_the_same_citizen_and_the_s-0.jpg"
   }
 ]

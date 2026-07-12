@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import argparse
 import json
 import mimetypes
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -12,14 +14,41 @@ from typing import Any
 from urllib.parse import urlparse
 
 import requests
-from PIL import Image
+
+try:
+    from PIL import Image
+except ModuleNotFoundError:
+    print("Pillow is not installed. Installing it now...")
+    install_commands = [
+        [sys.executable, "-m", "pip", "install", "Pillow"],
+        [sys.executable, "-m", "pip", "install", "--user", "Pillow"],
+    ]
+
+    install_error: Exception | None = None
+
+    for command in install_commands:
+        try:
+            subprocess.check_call(command)
+            install_error = None
+            break
+        except (subprocess.CalledProcessError, OSError) as error:
+            install_error = error
+
+    if install_error is not None:
+        raise SystemExit(
+            "Pillow could not be installed automatically. Run: "
+            f'"{sys.executable}" -m pip install Pillow'
+        ) from install_error
+
+    from PIL import Image
 
 
 # -----------------------------
 # Configuration
 # -----------------------------
 
-API_KEY = "a3bf6817-150b-4b64-828b-85d3019563c5"
+
+API_KEY = "a"
 
 # Existing Leonardo uploaded-image ID for the static character reference.
 # The script reuses this ID and does not upload character.png again.
@@ -33,9 +62,9 @@ CREATE_URL = "https://cloud.leonardo.ai/api/rest/v2/generations"
 RETRIEVE_BASE_URL = "https://cloud.leonardo.ai/api/rest/v1/generations"
 INIT_IMAGE_URL = "https://cloud.leonardo.ai/api/rest/v1/init-image"
 
-MODEL = "flux-pro-2.0"
-WIDTH = 810
-HEIGHT = 1440
+MODEL = "nano-banana-2"
+WIDTH = 768
+HEIGHT = 1376
 IMAGE_REFERENCE_STRENGTH = "MID"
 
 POLL_INTERVAL_SECONDS = 5
@@ -45,9 +74,28 @@ MAX_REQUEST_ATTEMPTS = 3
 ITERATION_DELAY_SECONDS = 10
 JPEG_QUALITY = 95
 
-# Process this inclusive ID range, in the order the scenarios appear in db.json.
-FIRST_ID: int | str = 1
-LAST_ID: int | str = 3
+# The inclusive scenario range is supplied when launching the script.
+# Example: python gen_cli_iterations.py 20 40
+
+
+
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Generate Leonardo images for an inclusive range of scenario IDs "
+            "from db.json."
+        )
+    )
+    parser.add_argument(
+        "first_iteration",
+        help="First scenario ID to process, inclusive.",
+    )
+    parser.add_argument(
+        "last_iteration",
+        help="Last scenario ID to process, inclusive.",
+    )
+    return parser.parse_args()
 
 
 # -----------------------------
@@ -528,6 +576,9 @@ def create_generation(
         "quantity": 1,
         "width": WIDTH,
         "height": HEIGHT,
+        "style_ids": [
+            "645e4195-f63d-4715-a3f2-3fb1e6eb8c70"
+        ],
         "prompt_enhance": "OFF",
     }
 
@@ -675,10 +726,12 @@ def save_results(results: list[dict[str, Any]]) -> None:
 
 def select_scenarios_by_id(
     scenarios: list[dict[str, Any]],
+    first_iteration: int | str,
+    last_iteration: int | str,
 ) -> list[dict[str, Any]]:
-    """Return scenarios from FIRST_ID through LAST_ID, inclusive."""
-    first_id = str(FIRST_ID)
-    last_id = str(LAST_ID)
+    """Return scenarios from first_iteration through last_iteration, inclusive."""
+    first_id = str(first_iteration)
+    last_id = str(last_iteration)
     first_index: int | None = None
     last_index: int | None = None
 
@@ -692,13 +745,19 @@ def select_scenarios_by_id(
             last_index = index
 
     if first_index is None:
-        raise ValueError(f"FIRST_ID {FIRST_ID!r} was not found in {DB_PATH}.")
+        raise ValueError(
+            f"first_iteration {first_iteration!r} was not found in {DB_PATH}."
+        )
 
     if last_index is None:
-        raise ValueError(f"LAST_ID {LAST_ID!r} was not found in {DB_PATH}.")
+        raise ValueError(
+            f"last_iteration {last_iteration!r} was not found in {DB_PATH}."
+        )
 
     if first_index > last_index:
-        raise ValueError("FIRST_ID must appear before or at LAST_ID in db.json.")
+        raise ValueError(
+            "first_iteration must appear before or at last_iteration in db.json."
+        )
 
     return scenarios[first_index : last_index + 1]
 
@@ -749,20 +808,56 @@ def download_image_as_jpg(
     print(f"Saved {destination}")
 
 
+def ask_to_continue(scenario_id: Any, image_label: str) -> bool:
+    """Ask whether the script should create the next image."""
+    while True:
+        try:
+            answer = input(
+                f"\n{image_label} for scenario {scenario_id} was downloaded. "
+                "Continue? [y/n]: "
+            ).strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print("\nNo confirmation received. Stopping the script.")
+            return False
+
+        if answer in {"y", "yes"}:
+            return True
+
+        if answer in {"n", "no"}:
+            return False
+
+        print("Please type y or n.")
+
+
+def print_stop_summary(total_cost: Decimal) -> None:
+    print("\nScript stopped by user.")
+    print(f"Available results saved to {RESULTS_PATH}.")
+    print(f"Detailed response bodies saved to {LOG_PATH}.")
+    print(f"Total reported generation cost: {total_cost} DOLLARS")
+
+
 # -----------------------------
 # Main workflow
 # -----------------------------
 
 
 def main() -> None:
+    args = parse_arguments()
+    first_iteration = args.first_iteration
+    last_iteration = args.last_iteration
+
     clear_log()
-    scenarios = select_scenarios_by_id(load_scenarios())
+    scenarios = select_scenarios_by_id(
+        load_scenarios(),
+        first_iteration=first_iteration,
+        last_iteration=last_iteration,
+    )
     results: list[dict[str, Any]] = []
     total_cost = Decimal("0")
 
     print(
         f"Loaded {len(scenarios)} scenarios from {DB_PATH}, "
-        f"from ID {FIRST_ID} through ID {LAST_ID}."
+        f"from ID {first_iteration} through ID {last_iteration}."
     )
     print(f"Detailed API logs will be written to {LOG_PATH}.")
 
@@ -781,7 +876,14 @@ def main() -> None:
         )
         time.sleep(ITERATION_DELAY_SECONDS)
 
-        # 1. Generate img-q using the external image uploaded as an UPLOADED reference.
+        scenario_result: dict[str, Any] = {
+            "img-q": None,
+            "img-ok": None,
+            "img-bad": None,
+        }
+        results.append(scenario_result)
+
+        # 1. Generate and immediately download img-q using the uploaded reference.
         q_generation_id, q_cost = create_generation(
             prompt=str(scenario["img-q"]),
             operation=f"scenario:{scenario_id}:img-q:create",
@@ -795,9 +897,22 @@ def main() -> None:
             operation=f"scenario:{scenario_id}:img-q",
         )
         q_image_id = str(q_image["id"])
-        print(f"img-q URL: {q_image.get('url')}")
+        q_url = q_image.get("url")
+        print(f"img-q URL: {q_url}")
 
-        # 2. Generate img-bad using img-q as the MID-strength GENERATED reference.
+        download_image_as_jpg(
+            image_url=q_url,
+            destination=Path(f"{scenario_id}-q.jpg"),
+            operation=f"scenario:{scenario_id}:img-q",
+        )
+        scenario_result["img-q"] = q_url
+        save_results(results)
+
+        if not ask_to_continue(scenario_id, "img-q"):
+            print_stop_summary(total_cost)
+            return
+
+        # 2. Generate and immediately download img-bad using img-q.
         bad_generation_id, bad_cost = create_generation(
             prompt=str(scenario["img-bad"]),
             operation=f"scenario:{scenario_id}:img-bad:create",
@@ -810,9 +925,22 @@ def main() -> None:
             generation_id=bad_generation_id,
             operation=f"scenario:{scenario_id}:img-bad",
         )
-        print(f"img-bad URL: {bad_image.get('url')}")
+        bad_url = bad_image.get("url")
+        print(f"img-bad URL: {bad_url}")
 
-        # 3. Only after img-bad is ready, generate img-ok from img-q.
+        download_image_as_jpg(
+            image_url=bad_url,
+            destination=Path(f"{scenario_id}-bad.jpg"),
+            operation=f"scenario:{scenario_id}:img-bad",
+        )
+        scenario_result["img-bad"] = bad_url
+        save_results(results)
+
+        if not ask_to_continue(scenario_id, "img-bad"):
+            print_stop_summary(total_cost)
+            return
+
+        # 3. Generate and immediately download img-ok using img-q.
         ok_generation_id, ok_cost = create_generation(
             prompt=str(scenario["img-ok"]),
             operation=f"scenario:{scenario_id}:img-ok:create",
@@ -825,33 +953,25 @@ def main() -> None:
             generation_id=ok_generation_id,
             operation=f"scenario:{scenario_id}:img-ok",
         )
-        print(f"img-ok URL: {ok_image.get('url')}")
+        ok_url = ok_image.get("url")
+        print(f"img-ok URL: {ok_url}")
 
-        # Download only after all three images for this scenario are ready.
-        for image_suffix, image in (
-            ("q", q_image),
-            ("ok", ok_image),
-            ("bad", bad_image),
-        ):
-            download_image_as_jpg(
-                image_url=image.get("url"),
-                destination=Path(f"{scenario_id}-{image_suffix}.jpg"),
-                operation=f"scenario:{scenario_id}:img-{image_suffix}",
-            )
-
-        scenario_result = {
-            "img-q": q_image.get("url"),
-            "img-ok": ok_image.get("url"),
-            "img-bad": bad_image.get("url"),
-        }
-
-        results.append(scenario_result)
+        download_image_as_jpg(
+            image_url=ok_url,
+            destination=Path(f"{scenario_id}-ok.jpg"),
+            operation=f"scenario:{scenario_id}:img-ok",
+        )
+        scenario_result["img-ok"] = ok_url
         save_results(results)
 
+        if not ask_to_continue(scenario_id, "img-ok"):
+            print_stop_summary(total_cost)
+            return
+
         print(f"\nScenario {scenario_id} completed.")
-        print(f"img-q URL:   {q_image.get('url')}")
-        print(f"img-bad URL: {bad_image.get('url')}")
-        print(f"img-ok URL:  {ok_image.get('url')}")
+        print(f"img-q URL:   {q_url}")
+        print(f"img-bad URL: {bad_url}")
+        print(f"img-ok URL:  {ok_url}")
         print(f"Running total: {total_cost} DOLLARS")
 
     print(f"\nFinished. Results saved to {RESULTS_PATH}.")
