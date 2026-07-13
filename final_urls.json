@@ -1,7 +1,112 @@
 [
   {
-    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ea00-0f43-6eb0-95b4-a39a0d7fa201/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
-    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ea01-6f3f-6570-b529-c3a406066580/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_supermarket_parking_lot_the_same_-0.jpg",
-    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ea00-b83c-6c10-9579-a02b21b191f9/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_supermarket_parking_lot_the_same_-0.jpg"
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef5b-e330-6ce0-969d-45dfff31ba63/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef5d-73e7-6d00-9a60-5639ee4777c6/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bistro_the_same_citizen_and_the_s-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef5c-c9ac-6b60-89e9-99a393ad74d2/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bistro_the_same_citizen_and_the_s-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef62-3ffd-6760-acd1-f3de2e0e5d7b/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef63-788e-68d0-a5c5-8f79485c4a79/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_coffee_shop_the_same_citizen_and_-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef62-e565-6360-b21f-05f9eef40a97/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_coffee_shop_the_same_citizen_and_-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef64-da6d-65f0-9ffa-55ff7884c4f0/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef66-7bad-6c70-bd01-f9686f6ba461/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_shoe_shop_the_same_citizen_and_th-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef65-d3e6-61e0-bfcd-1028942b1a7d/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_shoe_shop_the_same_citizen_and_th-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef67-cef7-6b00-8231-28877319261e/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef69-0e33-6520-bc4f-18107a0a3b43/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bookshop_the_same_citizen_and_the-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef68-6b3c-6920-abd9-9a4c458914a1/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bookshop_the_same_citizen_and_the-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6a-9425-6fb0-8a63-5dabf5addb06/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6b-f566-61c0-9f84-5aa0afda13aa/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_metro_station_the_same_citizen_an-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6b-6048-6480-bafb-72e118f00d74/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_metro_station_the_same_citizen_an-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6d-430f-6970-b923-83e83ead2711/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6e-a27d-6690-82a1-3ad5784810e0/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_pastry_shop_the_same_citizen_and_-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef6e-0976-69b0-b8ea-82be72920ece/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_pastry_shop_the_same_citizen_and_-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef70-306b-6870-98e1-234906d4b969/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef71-dc90-6050-8363-034cdd2bebe3/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hotel_dining_room_the_same_citize-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef71-0acf-6bb0-af62-6b031ae2ae3d/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hotel_dining_room_the_same_citize-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef73-64d1-6800-8033-dba7da7b13d1/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef75-0bbe-68b0-90d8-27e73658a011/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_café_counter_the_same_citizen_an-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef74-3a45-60e0-9574-2b1c6e6700de/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_café_counter_the_same_citizen_an-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef76-9187-6b30-b7bf-612ca3e1e6ac/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef77-f0ac-6470-80ff-3cddb07a4380/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_cheese_market_the_same_citizen_an-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef77-28a3-6c80-91c4-8a6c992bae4a/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_cheese_market_the_same_citizen_an-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef79-45ab-6330-aa60-c9730f70c46b/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7a-deb5-68e0-a7e3-1d099200e8ce/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_cinema_ticket_desk_the_same_citiz-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7a-18d4-6d10-9652-a38341dd0af6/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_cinema_ticket_desk_the_same_citiz-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7c-63ac-6c00-9c72-dbe72eebeeee/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7d-93e8-60d0-9bc4-82e741ad2591/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_restaurant_entrance_the_same_citi-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7c-fe55-6090-8d77-ed34ef08fda4/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_restaurant_entrance_the_same_citi-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7e-f0d8-6aa0-9801-931d9f1a021d/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef80-4a24-6a90-a6dc-38822b9b2cf6/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_fruit_market_the_same_citizen_and-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef7f-9fb3-6d90-a969-3ed8aa64b950/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_fruit_market_the_same_citizen_and-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef81-a999-6ce0-b345-46ef963a110a/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef83-13dd-6100-9999-b5b57b6a5ecb/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hotel_reception_the_same_citizen_-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef82-577e-6680-9f55-60f48b6f019f/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hotel_reception_the_same_citizen_-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef84-7513-66d0-8461-2c94c53133f7/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef86-2f97-61e0-8a76-68a0a4f52b4f/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_café_the_same_citizen_and_the_sa-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef85-3b69-65a0-a18a-78a19ab796c5/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_café_the_same_citizen_and_the_sa-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef87-9175-6f00-b574-abf74724687f/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef89-1f55-6680-b471-e0b937c4b28f/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bakery_the_same_citizen_and_the_s-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef88-58d3-6890-9950-244aead19a36/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_bakery_the_same_citizen_and_the_s-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8a-6db8-66f0-96ac-4753637cf266/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8b-f9be-6450-8c2b-e7266c7622c8/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_pharmacy_counter_the_same_citizen-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8b-345e-6ed0-880a-34b2cde2ec2c/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_pharmacy_counter_the_same_citizen-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8d-7f6c-6920-a338-040c224b4116/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8e-a7d8-65c0-96f2-0f63c97d882d/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_souvenir_shop_the_same_citizen_an-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef8e-122a-67d0-a770-c63ce1d12e45/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_souvenir_shop_the_same_citizen_an-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef90-3612-6290-b1a6-a673c6049ba4/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef91-d2e3-6500-9d8d-3afb2f06be33/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_laundromat_the_same_citizen_and_t-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef90-edce-64b0-b2df-eb2838ef8ce8/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_laundromat_the_same_citizen_and_t-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef93-5db5-6880-9683-f4892f90dbae/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef94-eaea-61a0-a167-49ae1e3f3ad1/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_coffee_shop_the_same_citizen_and_-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef94-4117-6fb0-b9ab-b6aacc26b428/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_coffee_shop_the_same_citizen_and_-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef96-51e5-6840-9464-93709e86f996/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef97-dc9c-6e10-8171-7eafdd7cf3c3/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_restaurant_the_same_citizen_and_t-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef97-3110-6dd0-b383-bee712cfa207/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_restaurant_the_same_citizen_and_t-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef99-391a-6bf0-85cd-73908a890edb/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef9a-b7d5-6430-9ecd-6d34950cab73/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_train_station_ticket_desk_the_sam-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef99-e068-6560-b6ac-36ca9a62fef1/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_train_station_ticket_desk_the_sam-0.jpg"
+  },
+  {
+    "img-q": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef9c-4374-68f0-9106-518e5895552a/nano-banana-2_a_stunning_illustration_of_Put_the_New_Yorker_character_from_the_attached_refere-0.jpg",
+    "img-ok": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef9e-0452-63a0-ab96-1b3d60186b71/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hair_salon_the_same_citizen_and_t-0.jpg",
+    "img-bad": "https://cdn.leonardo.ai/users/ad27f939-13d9-4629-bcd1-bf518cb7737b/generations/1f17ef9d-39e9-6d20-b729-7823f3ec3382/nano-banana-2_a_stunning_illustration_of_Keep_the_same_Paris_hair_salon_the_same_citizen_and_t-0.jpg"
   }
 ]
