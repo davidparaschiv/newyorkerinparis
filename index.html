@@ -576,6 +576,7 @@
 You have to learn French in order to save people from a horrible, horrible death. Or sometimes just avoid weird situations.
 At the end of this game, you are expected to learn how to speak French like a Pro, or at least know how to order a Croissant without using your hands.`;
       const BASE = "https://cdn.jsdelivr.net/gh/davidparaschiv/newyorkerinparis/";
+	  const LOGO = BASE + "images/logo.webp';
       let allScenarios = [];
       let scenarios = [];
 
@@ -805,7 +806,7 @@ At the end of this game, you are expected to learn how to speak French like a Pr
         return `
           <section class="panel narrow center">
             <div class="hero-image-wrap">
-              <img class="hero-image" src="https://res.cloudinary.com/ubseshqz/image/upload/v1783520829/logo_w58ewo.png" alt="Game logo" />
+              <img class="hero-image" src="${LOGO}" alt="Game logo" />
             </div>
             <p class="subtitle">${escapeHtml(startupDescription)}</p>
             <div class="btn-row" style="justify-content:center; align-items:center;">

@@ -8,9 +8,9 @@
     "f-bad": "Bonjour!",
     "e-ok": "Do not sit down!",
     "e-bad": "Hello!",
-    "img-q-url": "images/1-q.jpg",
-    "img-ok-url": "images/1-ok.jpg",
-    "img-bad-url": "images/1-bad.jpg"
+    "img-q-url": "images/1-q.webp",
+    "img-ok-url": "images/1-ok.webp",
+    "img-bad-url": "images/1-bad.webp"
   },
   {
     "id": 2,
@@ -21,9 +21,9 @@
     "f-bad": "Merci beaucoup!",
     "e-ok": "Watch the bus!",
     "e-bad": "Thank you very much!",
-    "img-q-url": "images/2-q.jpg",
-    "img-ok-url": "images/2-ok.jpg",
-    "img-bad-url": "images/2-bad.jpg"
+    "img-q-url": "images/2-q.webp",
+    "img-ok-url": "images/2-ok.webp",
+    "img-bad-url": "images/2-bad.webp"
   },
   {
     "id": 3,
@@ -34,9 +34,9 @@
     "f-bad": "À bientôt!",
     "e-ok": "Step back quickly!",
     "e-bad": "See you soon!",
-    "img-q-url": "images/3-q.jpg",
-    "img-ok-url": "images/3-ok.jpg",
-    "img-bad-url": "images/3-bad.jpg"
+    "img-q-url": "images/3-q.webp",
+    "img-ok-url": "images/3-ok.webp",
+    "img-bad-url": "images/3-bad.webp"
   },
   {
     "id": 4,
@@ -47,9 +47,9 @@
     "f-bad": "Très bien!",
     "e-ok": "It is burning hot!",
     "e-bad": "Very good!",
-    "img-q-url": "images/4-q.jpg",
-    "img-ok-url": "images/4-ok.jpg",
-    "img-bad-url": "images/4-bad.jpg"
+    "img-q-url": "images/4-q.webp",
+    "img-ok-url": "images/4-ok.webp",
+    "img-bad-url": "images/4-bad.webp"
   },
   {
     "id": 5,
@@ -60,9 +60,9 @@
     "f-bad": "Je comprends!",
     "e-ok": "Bike lane!",
     "e-bad": "I understand!",
-    "img-q-url": "images/5-q.jpg",
-    "img-ok-url": "images/5-ok.jpg",
-    "img-bad-url": "images/5-bad.jpg"
+    "img-q-url": "images/5-q.webp",
+    "img-ok-url": "images/5-ok.webp",
+    "img-bad-url": "images/5-bad.webp"
   },
   {
     "id": 6,
@@ -73,9 +73,9 @@
     "f-bad": "Bonne journée!",
     "e-ok": "Watch the rake!",
     "e-bad": "Have a nice day!",
-    "img-q-url": "images/6-q.jpg",
-    "img-ok-url": "images/6-ok.jpg",
-    "img-bad-url": "images/6-bad.jpg"
+    "img-q-url": "images/6-q.webp",
+    "img-ok-url": "images/6-ok.webp",
+    "img-bad-url": "images/6-bad.webp"
   },
   {
     "id": 7,
@@ -86,9 +86,9 @@
     "f-bad": "C'est parfait!",
     "e-ok": "Put out the flame!",
     "e-bad": "It's perfect!",
-    "img-q-url": "images/7-q.jpg",
-    "img-ok-url": "images/7-ok.jpg",
-    "img-bad-url": "images/7-bad.jpg"
+    "img-q-url": "images/7-q.webp",
+    "img-ok-url": "images/7-ok.webp",
+    "img-bad-url": "images/7-bad.webp"
   },
   {
     "id": 8,
@@ -99,9 +99,9 @@
     "f-bad": "Je ne sais pas!",
     "e-ok": "Step back a little!",
     "e-bad": "I do not know!",
-    "img-q-url": "images/8-q.jpg",
-    "img-ok-url": "images/8-ok.jpg",
-    "img-bad-url": "images/8-bad.jpg"
+    "img-q-url": "images/8-q.webp",
+    "img-ok-url": "images/8-ok.webp",
+    "img-bad-url": "images/8-bad.webp"
   },
   {
     "id": 9,
@@ -112,9 +112,9 @@
     "f-bad": "D'accord!",
     "e-ok": "Do not go there!",
     "e-bad": "Alright!",
-    "img-q-url": "images/9-q.jpg",
-    "img-ok-url": "images/9-ok.jpg",
-    "img-bad-url": "images/9-bad.jpg"
+    "img-q-url": "images/9-q.webp",
+    "img-ok-url": "images/9-ok.webp",
+    "img-bad-url": "images/9-bad.webp"
   },
   {
     "id": 10,
@@ -125,9 +125,9 @@
     "f-bad": "On y va!",
     "e-ok": "Hold the rail!",
     "e-bad": "Let's go!",
-    "img-q-url": "images/10-q.jpg",
-    "img-ok-url": "images/10-ok.jpg",
-    "img-bad-url": "images/10-bad.jpg"
+    "img-q-url": "images/10-q.webp",
+    "img-ok-url": "images/10-ok.webp",
+    "img-bad-url": "images/10-bad.webp"
   },
   {
     "id": 11,
@@ -138,9 +138,9 @@
     "f-bad": "Bonsoir!",
     "e-ok": "Look ahead!",
     "e-bad": "Good evening!",
-    "img-q-url": "images/11-q.jpg",
-    "img-ok-url": "images/11-ok.jpg",
-    "img-bad-url": "images/11-bad.jpg"
+    "img-q-url": "images/11-q.webp",
+    "img-ok-url": "images/11-ok.webp",
+    "img-bad-url": "images/11-bad.webp"
   },
   {
     "id": 12,
@@ -151,9 +151,9 @@
     "f-bad": "Allumez!",
     "e-ok": "He is choking!",
     "e-bad": "Turn it on!",
-    "img-q-url": "images/12-q.jpg",
-    "img-ok-url": "images/12-ok.jpg",
-    "img-bad-url": "images/12-bad.jpg"
+    "img-q-url": "images/12-q.webp",
+    "img-ok-url": "images/12-ok.webp",
+    "img-bad-url": "images/12-bad.webp"
   },
   {
     "id": 13,
@@ -164,9 +164,9 @@
     "f-bad": "Approchez!",
     "e-ok": "Hole in front!",
     "e-bad": "Come closer!",
-    "img-q-url": "images/13-q.jpg",
-    "img-ok-url": "images/13-ok.jpg",
-    "img-bad-url": "images/13-bad.jpg"
+    "img-q-url": "images/13-q.webp",
+    "img-ok-url": "images/13-ok.webp",
+    "img-bad-url": "images/13-bad.webp"
   },
   {
     "id": 14,
@@ -177,9 +177,9 @@
     "f-bad": "Continuez!",
     "e-ok": "Watch the dog!",
     "e-bad": "Keep going!",
-    "img-q-url": "images/14-q.jpg",
-    "img-ok-url": "images/14-ok.jpg",
-    "img-bad-url": "images/14-bad.jpg"
+    "img-q-url": "images/14-q.webp",
+    "img-ok-url": "images/14-ok.webp",
+    "img-bad-url": "images/14-bad.webp"
   },
   {
     "id": 15,
@@ -190,9 +190,9 @@
     "f-bad": "C'est gentil!",
     "e-ok": "The tram is coming!",
     "e-bad": "That's kind!",
-    "img-q-url": "images/15-q.jpg",
-    "img-ok-url": "images/15-ok.jpg",
-    "img-bad-url": "images/15-bad.jpg"
+    "img-q-url": "images/15-q.webp",
+    "img-ok-url": "images/15-ok.webp",
+    "img-bad-url": "images/15-bad.webp"
   },
   {
     "id": 16,
@@ -203,9 +203,9 @@
     "f-bad": "C'est sec!",
     "e-ok": "Not in water!",
     "e-bad": "It is dry!",
-    "img-q-url": "images/16-q.jpg",
-    "img-ok-url": "images/16-ok.jpg",
-    "img-bad-url": "images/16-bad.jpg"
+    "img-q-url": "images/16-q.webp",
+    "img-ok-url": "images/16-ok.webp",
+    "img-bad-url": "images/16-bad.webp"
   },
   {
     "id": 17,
@@ -216,9 +216,9 @@
     "f-bad": "Pas de problème!",
     "e-ok": "Step forward a little!",
     "e-bad": "No problem!",
-    "img-q-url": "images/17-q.jpg",
-    "img-ok-url": "images/17-ok.jpg",
-    "img-bad-url": "images/17-bad.jpg"
+    "img-q-url": "images/17-q.webp",
+    "img-ok-url": "images/17-ok.webp",
+    "img-bad-url": "images/17-bad.webp"
   },
   {
     "id": 18,
@@ -229,9 +229,9 @@
     "f-bad": "C'est froid!",
     "e-ok": "Do not touch!",
     "e-bad": "It is cold!",
-    "img-q-url": "images/18-q.jpg",
-    "img-ok-url": "images/18-ok.jpg",
-    "img-bad-url": "images/18-bad.jpg"
+    "img-q-url": "images/18-q.webp",
+    "img-ok-url": "images/18-ok.webp",
+    "img-bad-url": "images/18-bad.webp"
   },
   {
     "id": 19,
@@ -242,9 +242,9 @@
     "f-bad": "Entrez!",
     "e-ok": "Stop right now!",
     "e-bad": "Come in!",
-    "img-q-url": "images/19-q.jpg",
-    "img-ok-url": "images/19-ok.jpg",
-    "img-bad-url": "images/19-bad.jpg"
+    "img-q-url": "images/19-q.webp",
+    "img-ok-url": "images/19-ok.webp",
+    "img-bad-url": "images/19-bad.webp"
   },
   {
     "id": 20,
@@ -255,9 +255,9 @@
     "f-bad": "Avancez!",
     "e-ok": "Slippery floor!",
     "e-bad": "Move forward!",
-    "img-q-url": "images/20-q.jpg",
-    "img-ok-url": "images/20-ok.jpg",
-    "img-bad-url": "images/20-bad.jpg"
+    "img-q-url": "images/20-q.webp",
+    "img-ok-url": "images/20-ok.webp",
+    "img-bad-url": "images/20-bad.webp"
   },
   {
     "id": 21,
@@ -268,9 +268,9 @@
     "f-bad": "Je veux du pain!",
     "e-ok": "Move away quickly!",
     "e-bad": "I want bread!",
-    "img-q-url": "images/21-q.jpg",
-    "img-ok-url": "images/21-ok.jpg",
-    "img-bad-url": "images/21-bad.jpg"
+    "img-q-url": "images/21-q.webp",
+    "img-ok-url": "images/21-ok.webp",
+    "img-bad-url": "images/21-bad.webp"
   },
   {
     "id": 22,
@@ -281,9 +281,9 @@
     "f-bad": "Un café noir!",
     "e-ok": "Not now!",
     "e-bad": "A black coffee!",
-    "img-q-url": "images/22-q.jpg",
-    "img-ok-url": "images/22-ok.jpg",
-    "img-bad-url": "images/22-bad.jpg"
+    "img-q-url": "images/22-q.webp",
+    "img-ok-url": "images/22-ok.webp",
+    "img-bad-url": "images/22-bad.webp"
   },
   {
     "id": 23,
@@ -294,9 +294,9 @@
     "f-bad": "Je suis perdu!",
     "e-ok": "Walk slowly!",
     "e-bad": "I am lost!",
-    "img-q-url": "images/23-q.jpg",
-    "img-ok-url": "images/23-ok.jpg",
-    "img-bad-url": "images/23-bad.jpg"
+    "img-q-url": "images/23-q.webp",
+    "img-ok-url": "images/23-ok.webp",
+    "img-bad-url": "images/23-bad.webp"
   },
   {
     "id": 24,
@@ -307,9 +307,9 @@
     "f-bad": "La table ici!",
     "e-ok": "The car is reversing!",
     "e-bad": "The table here!",
-    "img-q-url": "images/24-q.jpg",
-    "img-ok-url": "images/24-ok.jpg",
-    "img-bad-url": "images/24-bad.jpg"
+    "img-q-url": "images/24-q.webp",
+    "img-ok-url": "images/24-ok.webp",
+    "img-bad-url": "images/24-bad.webp"
   },
   {
     "id": 25,
@@ -320,9 +320,9 @@
     "f-bad": "J'attends ici!",
     "e-ok": "Move aside quickly!",
     "e-bad": "I am waiting here!",
-    "img-q-url": "images/25-q.jpg",
-    "img-ok-url": "images/25-ok.jpg",
-    "img-bad-url": "images/25-bad.jpg"
+    "img-q-url": "images/25-q.webp",
+    "img-ok-url": "images/25-ok.webp",
+    "img-bad-url": "images/25-bad.webp"
   },
   {
     "id": 26,
@@ -333,9 +333,9 @@
     "f-bad": "Je paie demain!",
     "e-ok": "Do not run!",
     "e-bad": "I will pay tomorrow!",
-    "img-q-url": "images/26-q.jpg",
-    "img-ok-url": "images/26-ok.jpg",
-    "img-bad-url": "images/26-bad.jpg"
+    "img-q-url": "images/26-q.webp",
+    "img-ok-url": "images/26-ok.webp",
+    "img-bad-url": "images/26-bad.webp"
   },
   {
     "id": 27,
@@ -346,9 +346,9 @@
     "f-bad": "Quelle surprise!",
     "e-ok": "Get down from there!",
     "e-bad": "What a surprise!",
-    "img-q-url": "images/27-q.jpg",
-    "img-ok-url": "images/27-ok.jpg",
-    "img-bad-url": "images/27-bad.jpg"
+    "img-q-url": "images/27-q.webp",
+    "img-ok-url": "images/27-ok.webp",
+    "img-bad-url": "images/27-bad.webp"
   },
   {
     "id": 28,
@@ -359,9 +359,9 @@
     "f-bad": "Je dors ici!",
     "e-ok": "Do not touch!",
     "e-bad": "I sleep here!",
-    "img-q-url": "images/28-q.jpg",
-    "img-ok-url": "images/28-ok.jpg",
-    "img-bad-url": "images/28-bad.jpg"
+    "img-q-url": "images/28-q.webp",
+    "img-ok-url": "images/28-ok.webp",
+    "img-bad-url": "images/28-bad.webp"
   },
   {
     "id": 29,
@@ -372,9 +372,9 @@
     "f-bad": "Je reste là!",
     "e-ok": "Turn around quickly!",
     "e-bad": "I stay there!",
-    "img-q-url": "images/29-q.jpg",
-    "img-ok-url": "images/29-ok.jpg",
-    "img-bad-url": "images/29-bad.jpg"
+    "img-q-url": "images/29-q.webp",
+    "img-ok-url": "images/29-ok.webp",
+    "img-bad-url": "images/29-bad.webp"
   },
   {
     "id": 30,
@@ -385,9 +385,9 @@
     "f-bad": "C'est joli!",
     "e-ok": "Wait here!",
     "e-bad": "It is pretty!",
-    "img-q-url": "images/30-q.jpg",
-    "img-ok-url": "images/30-ok.jpg",
-    "img-bad-url": "images/30-bad.jpg"
+    "img-q-url": "images/30-q.webp",
+    "img-ok-url": "images/30-ok.webp",
+    "img-bad-url": "images/30-bad.webp"
   },
   {
     "id": 31,
@@ -398,9 +398,9 @@
     "f-bad": "Un sandwich chaud!",
     "e-ok": "Do not enter!",
     "e-bad": "A hot sandwich!",
-    "img-q-url": "images/31-q.jpg",
-    "img-ok-url": "images/31-ok.jpg",
-    "img-bad-url": "images/31-bad.jpg"
+    "img-q-url": "images/31-q.webp",
+    "img-ok-url": "images/31-ok.webp",
+    "img-bad-url": "images/31-bad.webp"
   },
   {
     "id": 32,
@@ -411,9 +411,9 @@
     "f-bad": "Je bois ça!",
     "e-ok": "Remove the scarf!",
     "e-bad": "I drink that!",
-    "img-q-url": "images/32-q.jpg",
-    "img-ok-url": "images/32-ok.jpg",
-    "img-bad-url": "images/32-bad.jpg"
+    "img-q-url": "images/32-q.webp",
+    "img-ok-url": "images/32-ok.webp",
+    "img-bad-url": "images/32-bad.webp"
   },
   {
     "id": 33,
@@ -424,9 +424,9 @@
     "f-bad": "Donnez-moi ça!",
     "e-ok": "Move from there!",
     "e-bad": "Give me that!",
-    "img-q-url": "images/33-q.jpg",
-    "img-ok-url": "images/33-ok.jpg",
-    "img-bad-url": "images/33-bad.jpg"
+    "img-q-url": "images/33-q.webp",
+    "img-ok-url": "images/33-ok.webp",
+    "img-bad-url": "images/33-bad.webp"
   },
   {
     "id": 34,
@@ -437,9 +437,9 @@
     "f-bad": "Cette rue?",
     "e-ok": "Watch the flame!",
     "e-bad": "This street?",
-    "img-q-url": "images/34-q.jpg",
-    "img-ok-url": "images/34-ok.jpg",
-    "img-bad-url": "images/34-bad.jpg"
+    "img-q-url": "images/34-q.webp",
+    "img-ok-url": "images/34-ok.webp",
+    "img-bad-url": "images/34-bad.webp"
   },
   {
     "id": 35,
@@ -450,9 +450,9 @@
     "f-bad": "Le train part!",
     "e-ok": "Away from the wall!",
     "e-bad": "The train leaves!",
-    "img-q-url": "images/35-q.jpg",
-    "img-ok-url": "images/35-ok.jpg",
-    "img-bad-url": "images/35-bad.jpg"
+    "img-q-url": "images/35-q.webp",
+    "img-ok-url": "images/35-ok.webp",
+    "img-bad-url": "images/35-bad.webp"
   },
   {
     "id": 36,
@@ -463,9 +463,9 @@
     "f-bad": "Je suis pressé!",
     "e-ok": "Watch the ball!",
     "e-bad": "I am in a hurry!",
-    "img-q-url": "images/36-q.jpg",
-    "img-ok-url": "images/36-ok.jpg",
-    "img-bad-url": "images/36-bad.jpg"
+    "img-q-url": "images/36-q.webp",
+    "img-ok-url": "images/36-ok.webp",
+    "img-bad-url": "images/36-bad.webp"
   },
   {
     "id": 37,
@@ -476,9 +476,9 @@
     "f-bad": "Le signal arrive!",
     "e-ok": "Not that one!",
     "e-bad": "The signal is coming!",
-    "img-q-url": "images/37-q.jpg",
-    "img-ok-url": "images/37-ok.jpg",
-    "img-bad-url": "images/37-bad.jpg"
+    "img-q-url": "images/37-q.webp",
+    "img-ok-url": "images/37-ok.webp",
+    "img-bad-url": "images/37-bad.webp"
   },
   {
     "id": 38,
@@ -489,9 +489,9 @@
     "f-bad": "Encore tout droit!",
     "e-ok": "The other way!",
     "e-bad": "Still straight ahead!",
-    "img-q-url": "images/38-q.jpg",
-    "img-ok-url": "images/38-ok.jpg",
-    "img-bad-url": "images/38-bad.jpg"
+    "img-q-url": "images/38-q.webp",
+    "img-ok-url": "images/38-ok.webp",
+    "img-bad-url": "images/38-bad.webp"
   },
   {
     "id": 39,
@@ -502,9 +502,9 @@
     "f-bad": "Elle est petite!",
     "e-ok": "Step back quickly!",
     "e-bad": "It is small!",
-    "img-q-url": "images/39-q.jpg",
-    "img-ok-url": "images/39-ok.jpg",
-    "img-bad-url": "images/39-bad.jpg"
+    "img-q-url": "images/39-q.webp",
+    "img-ok-url": "images/39-ok.webp",
+    "img-bad-url": "images/39-bad.webp"
   },
   {
     "id": 40,
@@ -515,9 +515,9 @@
     "f-bad": "Seulement un!",
     "e-ok": "Keep your hand back!",
     "e-bad": "Only one!",
-    "img-q-url": "images/40-q.jpg",
-    "img-ok-url": "images/40-ok.jpg",
-    "img-bad-url": "images/40-bad.jpg"
+    "img-q-url": "images/40-q.webp",
+    "img-ok-url": "images/40-ok.webp",
+    "img-bad-url": "images/40-bad.webp"
   },
   {
     "id": 41,
@@ -528,9 +528,9 @@
     "f-bad": "Ça suffit!",
     "e-ok": "Tie your shoes!",
     "e-bad": "That is enough!",
-    "img-q-url": "images/41-q.jpg",
-    "img-ok-url": "images/41-ok.jpg",
-    "img-bad-url": "images/41-bad.jpg"
+    "img-q-url": "images/41-q.webp",
+    "img-ok-url": "images/41-ok.webp",
+    "img-bad-url": "images/41-bad.webp"
   },
   {
     "id": 42,
@@ -541,9 +541,9 @@
     "f-bad": "Le chemin est long!",
     "e-ok": "Put down the cup!",
     "e-bad": "The road is long!",
-    "img-q-url": "images/42-q.jpg",
-    "img-ok-url": "images/42-ok.jpg",
-    "img-bad-url": "images/42-bad.jpg"
+    "img-q-url": "images/42-q.webp",
+    "img-ok-url": "images/42-ok.webp",
+    "img-bad-url": "images/42-bad.webp"
   },
   {
     "id": 43,
@@ -554,9 +554,9 @@
     "f-bad": "Je prends le bus!",
     "e-ok": "Let go quickly!",
     "e-bad": "I take the bus!",
-    "img-q-url": "images/43-q.jpg",
-    "img-ok-url": "images/43-ok.jpg",
-    "img-bad-url": "images/43-bad.jpg"
+    "img-q-url": "images/43-q.webp",
+    "img-ok-url": "images/43-ok.webp",
+    "img-bad-url": "images/43-bad.webp"
   },
   {
     "id": 44,
@@ -567,9 +567,9 @@
     "f-bad": "La porte est ouverte!",
     "e-ok": "The rock is moving!",
     "e-bad": "The door is open!",
-    "img-q-url": "images/44-q.jpg",
-    "img-ok-url": "images/44-ok.jpg",
-    "img-bad-url": "images/44-bad.jpg"
+    "img-q-url": "images/44-q.webp",
+    "img-ok-url": "images/44-ok.webp",
+    "img-bad-url": "images/44-bad.webp"
   },
   {
     "id": 45,
@@ -580,9 +580,9 @@
     "f-bad": "Je regarde ici!",
     "e-ok": "Watch the glass!",
     "e-bad": "I look here!",
-    "img-q-url": "images/45-q.jpg",
-    "img-ok-url": "images/45-ok.jpg",
-    "img-bad-url": "images/45-bad.jpg"
+    "img-q-url": "images/45-q.webp",
+    "img-ok-url": "images/45-ok.webp",
+    "img-bad-url": "images/45-bad.webp"
   },
   {
     "id": 46,
@@ -593,9 +593,9 @@
     "f-bad": "C'est incroyable!",
     "e-ok": "Step back a little!",
     "e-bad": "It is unbelievable!",
-    "img-q-url": "images/46-q.jpg",
-    "img-ok-url": "images/46-ok.jpg",
-    "img-bad-url": "images/46-bad.jpg"
+    "img-q-url": "images/46-q.webp",
+    "img-ok-url": "images/46-ok.webp",
+    "img-bad-url": "images/46-bad.webp"
   },
   {
     "id": 47,
@@ -606,9 +606,9 @@
     "f-bad": "Je vais monter!",
     "e-ok": "No water on it!",
     "e-bad": "I will go up!",
-    "img-q-url": "images/47-q.jpg",
-    "img-ok-url": "images/47-ok.jpg",
-    "img-bad-url": "images/47-bad.jpg"
+    "img-q-url": "images/47-q.webp",
+    "img-ok-url": "images/47-ok.webp",
+    "img-bad-url": "images/47-bad.webp"
   },
   {
     "id": 48,
@@ -619,9 +619,9 @@
     "f-bad": "Le parc est beau!",
     "e-ok": "Get down quickly!",
     "e-bad": "The park is beautiful!",
-    "img-q-url": "images/48-q.jpg",
-    "img-ok-url": "images/48-ok.jpg",
-    "img-bad-url": "images/48-bad.jpg"
+    "img-q-url": "images/48-q.webp",
+    "img-ok-url": "images/48-ok.webp",
+    "img-bad-url": "images/48-bad.webp"
   },
   {
     "id": 49,
@@ -632,9 +632,9 @@
     "f-bad": "Le bain est chaud!",
     "e-ok": "Watch the swing!",
     "e-bad": "The bath is hot!",
-    "img-q-url": "images/49-q.jpg",
-    "img-ok-url": "images/49-ok.jpg",
-    "img-bad-url": "images/49-bad.jpg"
+    "img-q-url": "images/49-q.webp",
+    "img-ok-url": "images/49-ok.webp",
+    "img-bad-url": "images/49-bad.webp"
   },
   {
     "id": 50,
@@ -645,8 +645,8 @@
     "f-bad": "Je rentre maintenant!",
     "e-ok": "The truck is backing up!",
     "e-bad": "I am going home now!",
-    "img-q-url": "images/50-q.jpg",
-    "img-ok-url": "images/50-ok.jpg",
-    "img-bad-url": "images/50-bad.jpg"
+    "img-q-url": "images/50-q.webp",
+    "img-ok-url": "images/50-ok.webp",
+    "img-bad-url": "images/50-bad.webp"
   }
 ]
