@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img-q": "Put the New Yorker character from the attached reference inside a white rectangular side frame at the bottom-left. In the main frame, show Paris café terrace. A Parisian citizen (different person, clearly looks as a Parisian citizen) (different person, clearly looks as a Parisian citizen) is about to sit on a broken chair with one loose leg. Keep the scene simple and clearly show the danger. ",
+    "img-q": "Put the New Yorker character from the attached reference inside a white rectangular side frame at the bottom-left. In the main frame, show Paris café terrace. A Parisian citizen (different person, clearly looks as a Parisian citizen) is about to sit on a broken chair with one loose leg. Keep the scene simple and clearly show the danger. ",
     "img-ok": "Keep the same Paris café terrace, the same citizen, and the same visual style. The New Yorker remains only inside the white rectangular side frame at the bottom-left and now smiles. In the main frame, the Parisian citizen has noticed the broken chair and stands safely beside it.",
     "img-bad": "Keep the same Paris café terrace, the same citizen, and the same visual style. The New Yorker remains only inside the white rectangular side frame at the bottom-left and now looks sad. In the main frame, the broken chair has collapsed and the Parisian citizen has fallen onto the ground.",
     "f-ok": "Ne vous asseyez pas!",

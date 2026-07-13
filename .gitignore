@@ -4,3 +4,4 @@ apikey.txt
 ./apikey.txt
 /apikey.txt
 apikey
+__pycache__/

@@ -195,18 +195,23 @@
       }
 
       .question-image-wrap {
-        background: #ffffff;
-        border-radius: 28px;
-        padding: 12px;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+        overflow: visible;
       }
 
       .question-image {
         width: 100%;
         height: 280px;
+        box-sizing: border-box;
+        padding: 5%;
         object-fit: contain;
         object-position: center;
         background: #ffffff;
-        border-radius: 18px;
+        border: 0;
+        border-radius: 0;
       }
 
       .eyebrow {
@@ -519,6 +524,34 @@
           height: 360px;
         }
       }
+
+      /* Scenario images: no separate outer rectangle.
+         The only white area is the 5% padding attached directly to the image. */
+      .question-image-wrap {
+        display: block;
+        width: 100%;
+        background: transparent !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+        text-align: center;
+      }
+
+      .question-image {
+        display: inline-block;
+        width: auto;
+        max-width: 100%;
+        height: clamp(550px, 120vh, 1300px) !important;
+        max-height: none;
+        padding: 5%;
+        box-sizing: border-box;
+        object-fit: contain;
+        object-position: center;
+        background: #ffffff;
+        border: 0;
+        border-radius: 0;
+      }
     </style>
   </head>
   <body>
@@ -543,6 +576,7 @@
 You have to learn French in order to save people from a horrible, horrible death. Or sometimes just avoid weird situations.
 At the end of this game, you are expected to learn how to speak French like a Pro, or at least know how to order a Croissant without using your hands.`;
       const BASE = "https://cdn.jsdelivr.net/gh/davidparaschiv/newyorkerinparis/";
+      let allScenarios = [];
       let scenarios = [];
 
       const state = {
@@ -617,10 +651,38 @@ At the end of this game, you are expected to learn how to speak French like a Pr
         return BASE + path;
       }
 
-      function randomLessonOrder() {
+      function secureRandomInt(maxExclusive) {
+        if (!Number.isInteger(maxExclusive) || maxExclusive <= 0) {
+          throw new Error("maxExclusive must be a positive integer.");
+        }
+
+        const range = 0x100000000;
+        const rejectionLimit = Math.floor(range / maxExclusive) * maxExclusive;
         const values = new Uint32Array(1);
-        crypto.getRandomValues(values);
-        return values[0] % 2 === 0 ? ["ok", "bad"] : ["bad", "ok"];
+
+        do {
+          crypto.getRandomValues(values);
+        } while (values[0] >= rejectionLimit);
+
+        return values[0] % maxExclusive;
+      }
+
+      function secureShuffle(items) {
+        const shuffled = [...items];
+
+        for (let index = shuffled.length - 1; index > 0; index -= 1) {
+          const randomIndex = secureRandomInt(index + 1);
+          [shuffled[index], shuffled[randomIndex]] = [
+            shuffled[randomIndex],
+            shuffled[index],
+          ];
+        }
+
+        return shuffled;
+      }
+
+      function randomLessonOrder() {
+        return secureRandomInt(2) === 0 ? ["ok", "bad"] : ["bad", "ok"];
       }
 
       function resetLessonOrder() {
@@ -660,6 +722,7 @@ At the end of this game, you are expected to learn how to speak French like a Pr
 
       function startScenarios() {
         stopQuestionTimer();
+        scenarios = secureShuffle(allScenarios);
         state.stage = "lesson1";
         state.scenarioIndex = 0;
         state.answeredCount = 0;
@@ -893,7 +956,7 @@ At the end of this game, you are expected to learn how to speak French like a Pr
               ${endingText}
             </p>
             <div class="btn-row" style="justify-content:center; align-items:center;">
-              <button class="btn btn-primary" data-action="go-main">Main screen</button>
+              <button class="btn btn-primary" data-action="start-scenarios">Start over</button>
             </div>
           </section>
         `;
@@ -1060,7 +1123,8 @@ At the end of this game, you are expected to learn how to speak French like a Pr
           }
 
           const data = await response.json();
-          scenarios = validateScenarios(data);
+          allScenarios = validateScenarios(data);
+          scenarios = [...allScenarios];
           state.dataLoaded = true;
           state.dataError = "";
         } catch (error) {

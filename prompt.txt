@@ -1,0 +1,2 @@
+f-ok and f-bad should be 4 words max.
+use the same format in db.json but use weird situations such as not knowing how to order a Croissant (not dangerous ones). do not repeat the situations when i tell you to generate multiple ones.

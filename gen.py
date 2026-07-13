@@ -53,7 +53,8 @@ except ModuleNotFoundError:
 
 
 
-API_KEY = "s"
+
+API_KEY = "<apikey>"
 
 # Existing Leonardo uploaded-image ID for the static character reference.
 # The script reuses this ID and does not upload character.png again.
