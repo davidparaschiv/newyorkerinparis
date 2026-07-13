@@ -1,3 +1,7 @@
+# -----------------------------
+# Call gen.py firstid noOfFullScenarios
+# -----------------------------
+
 from __future__ import annotations
 
 import argparse
@@ -48,7 +52,8 @@ except ModuleNotFoundError:
 # -----------------------------
 
 
-API_KEY = "a"
+
+API_KEY = "s"
 
 # Existing Leonardo uploaded-image ID for the static character reference.
 # The script reuses this ID and does not upload character.png again.
@@ -729,9 +734,10 @@ def select_scenarios_by_id(
     first_iteration: int | str,
     last_iteration: int | str,
 ) -> list[dict[str, Any]]:
-    """Return scenarios from first_iteration through last_iteration, inclusive."""
+    """Return scenarios ids from first_iteration to first_iteration+last_iteration-1, inclusive. adica gen.py 3 2 inseamna 2 id-uri incepand cu 3"""
     first_id = str(first_iteration)
-    last_id = str(last_iteration)
+    last_id_int = int(last_iteration)+int(first_iteration)-1
+    last_id = str(last_id_int)
     first_index: int | None = None
     last_index: int | None = None
 
@@ -809,24 +815,7 @@ def download_image_as_jpg(
 
 
 def ask_to_continue(scenario_id: Any, image_label: str) -> bool:
-    """Ask whether the script should create the next image."""
-    while True:
-        try:
-            answer = input(
-                f"\n{image_label} for scenario {scenario_id} was downloaded. "
-                "Continue? [y/n]: "
-            ).strip().lower()
-        except (EOFError, KeyboardInterrupt):
-            print("\nNo confirmation received. Stopping the script.")
-            return False
-
-        if answer in {"y", "yes"}:
-            return True
-
-        if answer in {"n", "no"}:
-            return False
-
-        print("Please type y or n.")
+    return True
 
 
 def print_stop_summary(total_cost: Decimal) -> None:
@@ -857,7 +846,7 @@ def main() -> None:
 
     print(
         f"Loaded {len(scenarios)} scenarios from {DB_PATH}, "
-        f"from ID {first_iteration} through ID {last_iteration}."
+        f"from ID {first_iteration}, and length of scenarios will be = {last_iteration}."
     )
     print(f"Detailed API logs will be written to {LOG_PATH}.")
 
