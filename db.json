@@ -648,18 +648,5 @@
     "img-q-url": "images/50-q.jpg",
     "img-ok-url": "images/50-ok.jpg",
     "img-bad-url": "images/50-bad.jpg"
-  },
-  {
-    "id": 51,
-    "img-q": "Put the New Yorker character from the attached reference inside a white rectangular side frame at the bottom-left. In the main frame, show Paris hotel bathroom. A Parisian citizen (different person, clearly looks as a Parisian citizen) is stepping out of a bathtub onto a wet floor with no mat. Keep the scene simple and clearly show the danger. ",
-    "img-ok": "Keep the same Paris hotel bathroom, the same citizen, and the same visual style. The New Yorker remains only inside the white rectangular side frame at the bottom-left and now smiles. In the main frame, the Parisian citizen has grabbed the towel rack and steps carefully onto a dry spot.",
-    "img-bad": "Keep the same Paris hotel bathroom, the same citizen, and the same visual style. The New Yorker remains only inside the white rectangular side frame at the bottom-left and now looks sad. In the main frame, the Parisian citizen has slipped on the wet floor after leaving the bathtub.",
-    "f-ok": "Attention au sol!",
-    "f-bad": "Tout va bien!",
-    "e-ok": "Watch the floor!",
-    "e-bad": "Everything is fine!",
-    "img-q-url": "images/51-q.jpg",
-    "img-ok-url": "images/51-ok.jpg",
-    "img-bad-url": "images/51-bad.jpg"
   }
 ]
