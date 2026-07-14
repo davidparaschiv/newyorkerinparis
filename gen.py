@@ -54,7 +54,7 @@ except ModuleNotFoundError:
 
 
 
-API_KEY = "s"
+API_KEY = "9ba66350-cb4a-46c2-a5c2-13c8692d061d"
 
 # Existing Leonardo uploaded-image ID for the static character reference.
 # The script reuses this ID and does not upload character.png again.
@@ -77,7 +77,7 @@ POLL_INTERVAL_SECONDS = 5
 GENERATION_TIMEOUT_SECONDS = 600
 REQUEST_TIMEOUT_SECONDS = 90
 MAX_REQUEST_ATTEMPTS = 3
-ITERATION_DELAY_SECONDS = 20
+ITERATION_DELAY_SECONDS = 10
 JPEG_QUALITY = 95
 
 # The inclusive scenario range is supplied when launching the script.
